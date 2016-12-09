@@ -6,19 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://qvpapa.com">
-  <title>Archives: 2016/12 | LangGe&#39;Blog</title>
+  <title>Archives: 2016/12 | e&#39;Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="记录生活点滴">
 <meta property="og:type" content="website">
-<meta property="og:title" content="LangGe'Blog">
+<meta property="og:title" content="e'Blog">
 <meta property="og:url" content="http://qvpapa.com/archives/2016/12/index.html">
-<meta property="og:site_name" content="LangGe'Blog">
+<meta property="og:site_name" content="e'Blog">
 <meta property="og:description" content="记录生活点滴">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LangGe'Blog">
+<meta name="twitter:title" content="e'Blog">
 <meta name="twitter:description" content="记录生活点滴">
   
-    <link rel="alternative" href="/atom.xml" title="LangGe&#39;Blog" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="e&#39;Blog" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -31,17 +31,47 @@
 <body>
   <div id="container">
     <div class="left-col">
-      <div class="overlay"></div>
+      <div class="overlay">
+	<div id="toc" class="toc-article">
+	<strong class="toc-title">文章目录</strong>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.leoweather.min.js"/>
+	<style>
+		body  { font:14px/1.5 微软雅黑; text-align:center; }
+		table { border:1px solid #DDD; border-collapse:collapse; width:980px; margin-top:20px; }
+		thead,
+		tfoot { background:#FAFAFA; }
+		td,th { border:1px solid #DDD; text-align:left; font-weight:normal; padding:15px; }
+		th,
+		.demo { width:100px; min-width:100px; max-width:100px; }
+		td    { width:680px; min-width:680px; max-width:680px; }
+		#demo { width:780px; margin:150px auto; background:#72af3c; color:#FFF; padding:50px 0 100px 0; overflow:hidden; border-radius:5000px; }
+		#demo i { background: no-repeat top left; display:inline-block; height:128px; line-height:128px; margin:0 auto 20px auto; font-size:70px; padding-left:150px; font-style:normal; text-align:center; font-weight:bold; }
+		#demo i.icon-xiaoyu { background-image:url(icon/xiaoyu.png); }
+		#demo i.icon-zhongyu { background-image:url(icon/zhongyu.png); }
+		#demo i.icon-dayu { background-image:url(icon/dayu.png); }
+		#demo i.icon-qing { background-image:url(icon/qing.png); }
+		#demo i.icon-duoyun { background-image:url(icon/duoyun.png); }
+		#demo i.icon-yin { background-image:url(icon/yin.png); }
+		#demo p { background:rgba(0,0,0,.3); margin:0 200px; padding:20px; border-radius:1000px; font-size:16px; }
+		#demo p span { margin:0 15px; }
+		#demo2 { width:980px; margin:0 auto; margin-top:20px; background:#fafafa; border:1px solid #ddd; padding:30px 0; overflow:hidden; }
+	</style>
+	<div id="demo">
+			<script>$('#demo').leoweather({format:'<i class="icon-{图标}">{气温}℃</i><p>{城市}<span>|</span>{天气}<span>|</span>{风向}{风级}级</p>'});</script>		
+		</div>
+	</div>
+</div>
 <div class="intrude-less">
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			
-			<img src="null" class="js-avatar">
+			<img src="/img/langge.jpg" class="js-avatar">
 			
 		</a>
 
 		<hgroup>
-		  <h1 class="header-author"><a href="/">Lang Ge</a></h1>
+		  <h1 class="header-author"><a href="/">L</a></h1>
 		</hgroup>
 
 		
@@ -53,11 +83,9 @@
 			
 				<li><a href="/">主页</a></li>
 	        
-				<li><a href="/archives">所有文章</a></li>
+				<li><a href="/tags/随笔">随笔</a></li>
 	        
-				<li><a href="/tags/随笔/">随笔</a></li>
-	        
-				<li><a href="/photo">相册</a></li>
+				<li><a href="/tags/日记">日记</a></li>
 	        
 			</ul>
 		</nav>
@@ -88,13 +116,15 @@
 		<nav class="header-nav">
 			<div class="social">
 				
-					<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+					<a class="github" target="_blank" href="https://github.com/langgehenlang/langgehenlang.github.io" title="github"><i class="icon-github"></i></a>
 		        
 					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 		        
 					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
 		        
-					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+					<a class="mail" target="_blank" href="/1422263046@qq.com" title="mail"><i class="icon-mail"></i></a>
+		        
+					<a class="csdn" target="_blank" href="http://blog.csdn.net/liujunpen" title="csdn"><i class="icon-csdn"></i></a>
 		        
 			</div>
 		</nav>
@@ -106,17 +136,17 @@
       <nav id="mobile-nav">
   	<div class="overlay">
   		<div class="slider-trigger"><i class="icon-sort"></i></div>
-  		<h1 class="header-author js-mobile-header hide">Lang Ge</h1>
+  		<h1 class="header-author js-mobile-header hide">L</h1>
   	</div>
 	<div class="intrude-less">
 		<header id="header" class="inner">
 			<div class="profilepic">
 				
-					<img src="null" class="js-avatar">
+					<img src="/img/langge.jpg" class="js-avatar">
 				
 			</div>
 			<hgroup>
-			  <h1 class="header-author">Lang Ge</h1>
+			  <h1 class="header-author">L</h1>
 			</hgroup>
 			
 			<p class="header-subtitle">一天进步一点</p>
@@ -126,24 +156,24 @@
 				
 					<li><a href="/">主页</a></li>
 		        
-					<li><a href="/archives">所有文章</a></li>
+					<li><a href="/tags/随笔">随笔</a></li>
 		        
-					<li><a href="/tags/随笔/">随笔</a></li>
-		        
-					<li><a href="/photo">相册</a></li>
+					<li><a href="/tags/日记">日记</a></li>
 		        
 				</ul>
 			</nav>
 			<nav class="header-nav">
 				<div class="social">
 					
-						<a class="github" target="_blank" href="#" title="github"><i class="icon-github"></i></a>
+						<a class="github" target="_blank" href="https://github.com/langgehenlang/langgehenlang.github.io" title="github"><i class="icon-github"></i></a>
 			        
 						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 			        
 						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
 			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
+						<a class="mail" target="_blank" href="/1422263046@qq.com" title="mail"><i class="icon-mail"></i></a>
+			        
+						<a class="csdn" target="_blank" href="http://blog.csdn.net/liujunpen" title="csdn"><i class="icon-csdn"></i></a>
 			        
 				</div>
 			</nav>
@@ -176,7 +206,7 @@
     	 
   
     <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/12/02/paiduijiaohao/">排队叫号交流（点我）</a>
+      <a class="archive-article-title" href="/2016/12/02/paiduijiaohao/">fdafwef</a>
     </h1>
   
 
@@ -207,7 +237,7 @@
   <div class="outer">
     <div id="footer-info">
     	<div class="footer-left">
-    		&copy; 2016 Lang Ge
+    		&copy; 2016 L
     	</div>
       	<div class="footer-right">
       		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
@@ -215,6 +245,7 @@
     </div>
   </div>
 </footer>
+
     </div>
     <script>
 	var yiliaConfig = {
@@ -233,6 +264,12 @@
 
 <script src="/./main.js"></script>
 
+
+<div id="totop" style="position:fixed;bottom:150px;right:50px;cursor: pointer;">
+<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+</div>
+
+<script src="/js/totop.js"></script>
 
     
 <div class="tools-col">
@@ -269,17 +306,9 @@
   		
   			<div class="friends-wrap" id="js-friends">
   			
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接1</a>
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://youcanyin.com">优餐饮</a>
   	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接2</a>
-  	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接3</a>
-  	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接4</a>
-  	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接5</a>
-  	        
-  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">友情链接6</a>
+  	          <a target="_blank" class="main-nav-link switch-friends-link" href="http://blog.csdn.net/liujunpen">CSDN</a>
   	        
   	        </div>
   		
@@ -289,7 +318,7 @@
     
     	<section class="tools-section tools-section-me">
   	  	
-  	  		<div class="aboutme-wrap" id="js-aboutme">很惭愧&lt;br&gt;&lt;br&gt;只做了一点微小的工作&lt;br&gt;谢谢大家</div>
+  	  		<div class="aboutme-wrap" id="js-aboutme">快乐是一天&lt;br&gt;不快乐也是一天&lt;br&gt;为什么我们不天天快乐呢！！！</div>
   	  	
     	</section>
     
