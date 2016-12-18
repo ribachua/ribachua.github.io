@@ -1,0 +1,11 @@
+#demo { width:100%; height:130px;margin:0px auto; background:#0072af3c; color:#FFF; padding:20px 20px 20px 20px; overflow:hidden; border-radius:0px; }
+#demo i { width:100px; background: no-repeat top left; display:inline-block; height:40px; line-height:0px; margin:0 auto 00px auto; font-size:28px; padding-left:40px; padding-top:10px;font-style:normal; text-align:center; font-weight:bold; }
+#demo i.icon-xiaoyu { background-image:url(icon/xiaoyu.png); }
+#demo i.icon-zhongyu { background-image:url(icon/zhongyu.png); }
+#demo i.icon-dayu { background-image:url(icon/dayu.png); }
+#demo i.icon-qing { background-image:url(icon/qing.png); }
+#demo i.icon-duoyun { background-image:url(icon/duoyun.png); }
+#demo i.icon-yin { background-image:url(icon/yin.png); }
+#demo i.icon-mai { background-image:url(icon/mai.png); }
+#demo p { background:rgba(0,0,0,.3); margin:0 00px; padding:0px; border-radius:00px; font-size:16px; }
+#demo p span { margin:0 2px; }

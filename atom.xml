@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>e&#39;Blog</title>
-  <subtitle>一天进步一点</subtitle>
+  <title>LG&#39;Blog</title>
+  <subtitle>冰是睡着的水</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://qvpapa.com/"/>
-  <updated>2016-12-02T18:18:32.000Z</updated>
+  <updated>2016-12-18T07:37:52.000Z</updated>
   <id>http://qvpapa.com/</id>
   
   <author>
-    <name>L</name>
+    <name>LG</name>
     
   </author>
   
@@ -20,7 +20,7 @@
     <link href="http://qvpapa.com/2016/12/03/paiduijiaohao/"/>
     <id>http://qvpapa.com/2016/12/03/paiduijiaohao/</id>
     <published>2016-12-02T17:24:38.000Z</published>
-    <updated>2016-12-02T18:18:32.000Z</updated>
+    <updated>2016-12-18T07:37:52.000Z</updated>
     
     <content type="html"><![CDATA[<p>摘要：对于使用排队叫号app有疑惑、有建议或想感谢鄙人的童鞋们，可以在这篇文章下，可以留言，写下各位童鞋对该软件的建议和 使用心得。<a id="more"></a></p>
 <h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><blockquote>
@@ -37,16 +37,12 @@
     
     </summary>
     
+      <category term="软件" scheme="http://qvpapa.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+    
     
       <category term="软件" scheme="http://qvpapa.com/tags/%E8%BD%AF%E4%BB%B6/"/>
     
-      <category term="随笔" scheme="http://qvpapa.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-      <category term="日记" scheme="http://qvpapa.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-      <category term="其他" scheme="http://qvpapa.com/tags/%E5%85%B6%E4%BB%96/"/>
-    
-      <category term="杂谈" scheme="http://qvpapa.com/tags/%E6%9D%82%E8%B0%88/"/>
+      <category term="排队叫号" scheme="http://qvpapa.com/tags/%E6%8E%92%E9%98%9F%E5%8F%AB%E5%8F%B7/"/>
     
   </entry>
   
