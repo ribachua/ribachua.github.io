@@ -3082,11 +3082,12 @@ to {
 .toc-to-toc {
   box-sizing: border-box;
   position: fixed;
-  bottom: 45px;
+  bottom: 100px;
   right: 20px;
   z-index: 1050;
   padding: 0 6px;
-  width: 25px;
+ width: 28px;
+  height: 30px;
   background: #222;
   font-size: 12px;
   opacity: 1;
