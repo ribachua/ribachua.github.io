@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://qvpapa.com/categories/index.html</loc>
+    
+    <lastmod>2017-01-11T07:11:51.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://qvpapa.com/2016/12/03/Android%E8%87%AA%E5%AE%9A%E4%B9%89View%E2%80%94%E7%A7%92%E8%A1%A8-%E6%97%B6%E9%92%9F/</loc>
     
     <lastmod>2016-12-19T04:28:58.000Z</lastmod>
@@ -12,41 +19,6 @@
     <loc>http://qvpapa.com/2016/12/03/%E6%8E%92%E9%98%9F%E5%8F%AB%E5%8F%B7/</loc>
     
     <lastmod>2016-12-18T07:37:52.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://qvpapa.com/categories/index.html</loc>
-    
-    <lastmod>2016-12-16T03:16:02.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://qvpapa.com/categories/lazyload.min.js</loc>
-    
-    <lastmod>2016-12-14T03:08:00.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://qvpapa.com/categories/ins.json</loc>
-    
-    <lastmod>2016-12-14T03:07:44.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://qvpapa.com/categories/ins.js</loc>
-    
-    <lastmod>2016-12-14T03:06:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://qvpapa.com/categories/ins.css</loc>
-    
-    <lastmod>2016-12-14T03:06:17.000Z</lastmod>
     
   </url>
   
