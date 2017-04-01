@@ -1,159 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>LG&#39;Blog</title>
-  <subtitle>冰是睡着的水</subtitle>
+  <title>日八歘与蛋皮话的小筑</title>
+  <subtitle>记录生活点滴</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://qvpapa.com/"/>
-  <updated>2016-12-18T07:37:52.000Z</updated>
-  <id>http://qvpapa.com/</id>
+  <link href="http://ribachua.me/"/>
+  <updated>2017-04-01T04:12:13.000Z</updated>
+  <id>http://ribachua.me/</id>
   
   <author>
-    <name>LG</name>
+    <name>日八歘与蛋皮话</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>排队叫号</title>
-    <link href="http://qvpapa.com/2016/12/03/%E6%8E%92%E9%98%9F%E5%8F%AB%E5%8F%B7/"/>
-    <id>http://qvpapa.com/2016/12/03/排队叫号/</id>
-    <published>2016-12-02T17:24:38.000Z</published>
-    <updated>2016-12-18T07:37:52.000Z</updated>
+    <title>序</title>
+    <link href="http://ribachua.me/2017/04/01/%E5%BA%8F/"/>
+    <id>http://ribachua.me/2017/04/01/序/</id>
+    <published>2017-04-01T03:36:38.000Z</published>
+    <updated>2017-04-01T04:12:13.000Z</updated>
     
-    <content type="html"><![CDATA[<p>摘要：对于使用排队叫号app有疑惑、有建议或想感谢鄙人的童鞋们，可以在这篇文章下，可以留言，写下各位童鞋对该软件的建议和 使用心得。<a id="more"></a></p>
-<h3 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h3><blockquote>
-<p>1、取号，叫号，就餐，过号；<br>2、设置打印模式；<br>3、小票设置；<br>4、语音设置。<br>……</p>
-</blockquote>
-<h3 id="界面"><a href="#界面" class="headerlink" title="界面"></a>界面</h3><p><img src="http://ofvclhflh.bkt.clouddn.com/img-first.png" alt="enter image description here"></p>
-<h3 id="宗旨"><a href="#宗旨" class="headerlink" title="宗旨"></a>宗旨</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">专注体验，实用便捷</div></pre></td></tr></table></figure>
-<h3 id="下载网站"><a href="#下载网站" class="headerlink" title="下载网站"></a>下载网站</h3><p><a href="http://ofvclhflh.bkt.clouddn.com/index.html" target="_blank" rel="external">戳我</a></p>
+    <content type="html"><![CDATA[<p>摘要：之前申请了这个域名，准备作为日八歘和蛋皮话的一些日常的记录使用，以便以后可以看看，我们在时间的长河上，留下的足迹。<a id="more"></a></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;摘要：对于使用排队叫号app有疑惑、有建议或想感谢鄙人的童鞋们，可以在这篇文章下，可以留言，写下各位童鞋对该软件的建议和 使用心得。
+      &lt;p&gt;摘要：之前申请了这个域名，准备作为日八歘和蛋皮话的一些日常的记录使用，以便以后可以看看，我们在时间的长河上，留下的足迹。
     
     </summary>
     
-      <category term="软件" scheme="http://qvpapa.com/categories/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="随笔" scheme="http://ribachua.me/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-      <category term="软件" scheme="http://qvpapa.com/tags/%E8%BD%AF%E4%BB%B6/"/>
+      <category term="念" scheme="http://ribachua.me/tags/%E5%BF%B5/"/>
     
-      <category term="排队叫号" scheme="http://qvpapa.com/tags/%E6%8E%92%E9%98%9F%E5%8F%AB%E5%8F%B7/"/>
+      <category term="记" scheme="http://ribachua.me/tags/%E8%AE%B0/"/>
     
-  </entry>
-  
-  <entry>
-    <title>Android自定义View---秒表/时钟</title>
-    <link href="http://qvpapa.com/2016/12/03/Android%E8%87%AA%E5%AE%9A%E4%B9%89View%E2%80%94%E7%A7%92%E8%A1%A8-%E6%97%B6%E9%92%9F/"/>
-    <id>http://qvpapa.com/2016/12/03/Android自定义View—秒表-时钟/</id>
-    <published>2016-12-02T17:24:38.000Z</published>
-    <updated>2016-12-19T04:28:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>摘要：网上看到一个html的秒表，赶脚不错，就闲着试试实现，时钟/秒表在学习自定义view中是一个不错的开始学习对象，毕竟看再多关于别人的自定义view文章也不如自己动动手。<a href="http://www.html5tricks.com/demo/html5-css3-stop-watch/index.html" target="_blank" rel="external">秒表</a><a id="more"></a></p>
-<h2 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h2><p>画钟表，基本就是那么几个步骤，那先逐个分析一下：</p>
-<ul>
-<li>画外表盘</li>
-<li>画内表盘</li>
-<li>画刻度线</li>
-<li>画刻度值</li>
-<li>提供外部接口（开始，暂停，复位等）</li>
-</ul>
-<p>以上几步是必要的，当然顺序可以打乱，有的步骤也可以合并执行，视个人习惯而定。</p>
-<h2 id="核心代码"><a href="#核心代码" class="headerlink" title="核心代码"></a>核心代码</h2><pre><code> protected void onDraw (Canvas canvas) {
-
-    int width = getWidth();
-    int height = getHeight();
-    int cx = width/2;
-    int cy = height/2;
-
-    //draw out plate
-    paint.setColor(plate_out_color);
-    int out_radius = Math.min(cx, cy);
-    canvas.drawCircle(cx, cy, out_radius, paint);
-
-    //draw in plate
-    paint.setColor(plate_in_color);
-    int in_radius = out_radius-30;
-    canvas.drawCircle(cx, cy, in_radius, paint);
-
-    //draw scale
-    paint.setColor(scale_color);
-    for ( int i=0; i&lt;120; i++)
-    {
-        if( i%5==0 ){//长线
-            paint.setStrokeWidth(5);
-            canvas.drawLine(width/2, height/2-in_radius+10, getWidth()/2, height/2-in_radius+5+25, paint);
-            if( i%10==0 )
-            {
-                int value = (i/2);
-                paint.setTextSize(25);
-                String str =  (value==0)?&quot;60&quot;:value+&quot;&quot;;
-                float x = width/2; //字体中心x
-                float y = height/2-in_radius+5+25+40;
-                int angle = -(360/120)*i;
-                if ( angle!=0 ){
-                    canvas.rotate(angle, x, y);//旋转画布，来实现字体的旋转
-                }
-                float len = paint.measureText(str);
-                float sx = (getWidth()-len)/2; //字体起始位置x
-                float sy = getHeight()/2-in_radius+5+25+50;
-                canvas.drawText(str, sx, sy, paint);
-                if (angle !=0 ){
-                    canvas.rotate(-angle, x, y);
-                }
-            }
-        }
-        else {//短线
-            paint.setStrokeWidth(2);                
-            canvas.drawLine(width/2, height/2-in_radius+10, width/2, height/2-in_radius+5+18, paint);
-        }
-        canvas.rotate(360/120, width/2, height/2);//旋转画布
-    }
-
-    //draw pointer
-    paint.setColor(pointer_color);
-    float pointerValue = curValue%(60*1000);
-
-    float roate = ((360f/120)/1000)*pointerValue ;
-    canvas.rotate( roate,width/2, height/2);
-    float pradius = (getHeight()/2+55)-(height/2-in_radius);
-    RectF rectF = new RectF( width/2-pradius, height/2-in_radius-pradius , width/2+pradius, height/2-in_radius+pradius);
-    canvas.drawArc( rectF,88, 4, true, paint);
-    paint.setTextSize(5);
-    canvas.drawCircle(cx, cy, 25, paint);
-    paint.setColor(plate_in_color);
-    canvas.drawCircle(cx, cy, 20, paint);
-
-    canvas.rotate( 0-roate, width/2, height/2);
-}  
-</code></pre><p>  上面画刻度时，遇到了2个值得思考的误区：</p>
-<blockquote>
-<p>1、刻度线问题：本想通过不同角度来，表盘不动，画笔绕一圈画完刻度线，但赶脚不太好，后来看网上有哥们说，只需旋转表盘即可，这样我们只需要画正上方那个刻度线即可。</p>
-<p>2、刻度值问题：刻度值画完后，表盘的字体是，慢慢倾斜的，这是因为我们画刻度线时，一起画了刻度值，而且以正上方为正面引起的，所以在画刻度值时，需以刻度值为中心旋转其相对12点刻度的角度，再画刻度值即可。</p>
-</blockquote>
-<p><img src="./device-2016-12-13-174655.png" alt="Alt text"></p>
-<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>之前因为不想通过线程去控制秒表。所以，尝试了一下继承 Chronometer，但是由于其只支持秒级，所以放弃了。时钟/秒表在自定义view算比较好的练习，建议新上手的童鞋可以练练。</p>
-<p><a href="http://download.csdn.net/detail/liujunpen/9715183" target="_blank" rel="external">源码下载</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;摘要：网上看到一个html的秒表，赶脚不错，就闲着试试实现，时钟/秒表在学习自定义view中是一个不错的开始学习对象，毕竟看再多关于别人的自定义view文章也不如自己动动手。&lt;a href=&quot;http://www.html5tricks.com/demo/html5-css3-stop-watch/index.html&quot;&gt;秒表&lt;/a&gt;
-    
-    </summary>
-    
-      <category term="Android" scheme="http://qvpapa.com/categories/Android/"/>
-    
-    
-      <category term="Android" scheme="http://qvpapa.com/tags/Android/"/>
-    
-      <category term="自定义view" scheme="http://qvpapa.com/tags/%E8%87%AA%E5%AE%9A%E4%B9%89view/"/>
-    
-      <category term="秒表/时钟" scheme="http://qvpapa.com/tags/%E7%A7%92%E8%A1%A8-%E6%97%B6%E9%92%9F/"/>
+      <category term="忆" scheme="http://ribachua.me/tags/%E5%BF%86/"/>
     
   </entry>
   
